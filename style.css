@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+}
+#facebook{
+    background-color: #F1F2F7;
+}
+.fb{
+    font-size: 68px;
+    color: rgb(15, 118, 248);
+    margin-bottom: 0;
+    
+}
+.para1{
+    font-weight: 100;
+    font-size: 30px;
+}
+.fbmain{
+    display: flex;
+}
+.fbcontent{
+    width: 50vw;
+    height: 60vh;
+    padding-top: 30vh;
+    padding-left: 10vw;
+} 
+.fbform{
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    
+} 
+.box{
+    width: 70%;
+    height: 60%;
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    margin-left: 10%;
+    margin-top: 20%;
+    padding: 4%;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgb(155, 155, 155);
+}
+#new-form{
+    background-color: #3ABD1F;
+    color: white;
+    width: 18vw;
+    height: 9vh;
+    font-weight: 750; 
+    font-size: x-large;
+    border-radius: 10PX;
+}
+a{
+    text-decoration: none;
+    color: #1A78F4;
+    font-size: larger;
+    font-weight: bold;
+}
+input[type=text], input[type=password], input[type=submit]{
+    height: 8vh;
+    width: 94%;
+    border-radius: 10PX;
+}
+input[type=submit]{
+    background-color: #1A78F4;
+    color: white;
+    font-size: x-large;
+    font-weight: 750;
+    
+}
+input[type=text], input[type=password]{
+    border: 1px solid rgb(233, 220, 220);
+    padding-left: 3%;
+    font-size: larger;
+}
+
+input[type=submit], #new-form{
+    border: none;
+    
+}
+::placeholder{
+    font-size: large;
+    font-weight: bold;
+    padding-left: 3%;
+}
+
+input[type=submit]:hover{
+    background-color: #1a79f4b2;
+    cursor: pointer;
+}
+#new-form:hover{
+    background-color: #39bd1fc0;
+    cursor: pointer;
+}
