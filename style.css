@@ -55,9 +55,14 @@ a{
     font-size: larger;
     font-weight: bold;
 }
-input[type=text], input[type=password], input[type=submit]{
+input[type=text], input[type=password], input[type=submit], input[type=email], select{
     height: 8vh;
-    width: 94%;
+    width: 82%;
+    border-radius: 10PX;
+}
+input[type=submit], select{
+    height: 8vh;
+    width: 97%;
     border-radius: 10PX;
 }
 input[type=submit]{
@@ -67,10 +72,15 @@ input[type=submit]{
     font-weight: 750;
     
 }
-input[type=text], input[type=password]{
+input[type=text], input[type=password], input[type=email]{
     border: 1px solid rgb(233, 220, 220);
-    padding-left: 3%;
-    font-size: larger;
+    padding-left: 15%;
+    font-size: xx-large;
+}
+input[type=email]{
+    height: 8vh;
+    width: 82%;
+    border-radius: 10ppx;
 }
 
 input[type=submit], #new-form{
@@ -90,4 +100,8 @@ input[type=submit]:hover{
 #new-form:hover{
     background-color: #39bd1fc0;
     cursor: pointer;
+}
+select{
+    font-size: larger;
+    padding-left: 5%;
 }
